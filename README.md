@@ -1,11 +1,10 @@
-# buildspace Wave Portal 👋 
+# Wave Portal 👋 
 
-### **Welcome!**
-To get started with this course, clone this repo and follow these commands:
+Wave Portal is a small project build with https://buildspace.so to gain knowledge on the Ethereum blockchain and Web3 development.
 
-1. Run `npm install` at the root of your directory
-2. Run `npm run start` to start the project
-3. Start coding!
+It's very simple to read and write on the blockhain within this project:
+  1) Connect your wallet, 
+  2) write your message, 
+  3) and wave at me 🚀
 
-### **Questions?**
-Have some questions make sure you head over to your [buildspace Dashboard](https://app.buildspace.so/courses/CO02cf0f1c-f996-4f50-9669-cf945ca3fb0b) and link your Discord account so you can get access to helpful channels and your instructor!
+
