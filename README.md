@@ -7,4 +7,5 @@ It's very simple to read and write on the blockhain within this project:
   2) write your message, 
   3) and wave at me 🚀
 
+Check it out: https://waveportalweb3.netlify.app/
 
