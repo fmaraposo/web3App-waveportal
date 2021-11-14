@@ -1,6 +1,5 @@
 # Wave Portal 👋 
 
-### **Welcome!**
 Wave Portal is a small project build with https://buildspace.so to gain knowledge on the Ethereum blockchain and Web3 development.
 
 It's very simple to read and write on the blockhain within this project:
