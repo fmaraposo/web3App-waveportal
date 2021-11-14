@@ -158,24 +158,27 @@ const App = () => {
         </div>
 
         <div className="bio">
-         I'm web developer, gaining some knowledge on the Ethereum blockchain & Web3! 
+         I'm a web developer, gaining some knowledge on the Ethereum blockchain & Web3! 
          Wanna interact with the blockchain? 
          Connect your wallet, write your message, and wave at me 🚀
         </div>
 
-        <div className="message">
-          <textarea className="message-textarea" onChange={(e) => setMessage(e.target.value)}>
-          </textarea>
-          <button className="waveButton" onClick={wave}>
-            Wave Me!
-          </button>
-        </div>
-
+        {currentAccount && (
+          <div className="message">
+            <textarea className="message-textarea" onChange={(e) => setMessage(e.target.value)}>
+            </textarea>
+            <button className="waveButton" onClick={wave}>
+              Wave Me!
+            </button>
+          </div>
+        )}
 
         {!currentAccount && (
-          <button className="waveButton" onClick={connectWallet}>
-            Connect Wallet
-          </button>
+          <div className='connectWallet'>
+            <button className="waveButton" onClick={connectWallet}>
+              Connect your Wallet !
+            </button>
+          </div>
         )}
           {allWaves.map((wave, index) => {
             return (

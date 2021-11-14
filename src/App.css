@@ -55,6 +55,11 @@ body {
   width: 350px;
 }
 
+.connectWallet {
+  display: flex;
+  justify-content: center;
+}
+
 .waves {
   background-color: #FFFFFF; 
   margin-top: 16px;
